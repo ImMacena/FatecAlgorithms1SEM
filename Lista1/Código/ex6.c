@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main() 
+{
   float hourlyRate, grossSalary, discount, inssDiscount, netSalary;
-  int opt, numClasses;
+  int opt = -1, numClasses;
 
   while (opt != 2) {
     if (opt == 1) {
@@ -26,10 +27,10 @@ int main() {
 
       system("cls");
 
-      printf("Monthly income summary:\n");
-      printf("Gross Salary: $%.2f\n", grossSalary);
-      printf("INSS Discount: $%.2f\n", discount);
-      printf("Net Salary: $%.2f\n", netSalary);
+      printf("- Monthly income summary -\n");
+      printf("\nGross Salary: $%.2f", grossSalary);
+      printf("\nINSS Discount: $%.2f", discount);
+      printf("\nNet Salary: $%.2f\n\n", netSalary);
 
       system("pause");
     }
