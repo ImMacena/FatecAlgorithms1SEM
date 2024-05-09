@@ -10,7 +10,7 @@
 
 int CountEven(int *numbers) // Função para contar a quantidade de números pares
 {
-  int count = 0, compare;
+  int count = 0;
 
   for(int i = 0; i < MAX; i++)
   {
